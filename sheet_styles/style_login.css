@@ -1,0 +1,120 @@
+@font-face {
+    font-family: commuters-sans;
+    src: url("../fonts/commuters-sans-thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: commuters-sans;
+    font-weight: bold;
+    src: url("../fonts/commuters-sans-light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: commuters-sans;
+    font-weight: italic;
+    src: url("../fonts/commuters-sans-extralight-italic.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: commuters-sans, verdana, sans-serif;
+}
+
+.header{
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 7vmin;
+  position: relative;
+}
+
+.displayed {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+}
+
+body {
+  background-image: url(../images/wallpaper.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.login-form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.login-form > h2{
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.login-form > form{
+  font-weight: normal;
+}
+
+.login-form > form > a:nth-of-type(1){
+  display: block;
+  font-weight: italic;
+  font-size: 50%;
+  text-decoration: none;
+}
+
+
+
+hr{
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  margin-bottom: 10px;
+  width: 100%
+}
+
+input{
+  font-style: bold;
+  font-color: black;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  display: block;
+  margin-bottom: 5px;
+  background-color: rgba(255, 255, 255, 0.33);
+  border: none;
+}
+
+::placeholder{
+  font-style: bold;
+  color: black;
+}
+
+
+button{
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18%;
+  padding-right: 18%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+footer {
+  font-size: 60%;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-100%);
+  text-align: center;
+}

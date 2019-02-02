@@ -1,0 +1,88 @@
+@font-face {
+    font-family: commuters-sans;
+    src: url("../fonts/commuters-sans-thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: commuters-sans;
+    font-weight: bold;
+    src: url("../fonts/commuters-sans-light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: commuters-sans;
+    font-weight: italic;
+    src: url("../fonts/commuters-sans-extralight-italic.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: commuters-sans, verdana, sans-serif;
+}
+
+.header{
+  background-color: rgb(240, 240, 240);
+  height: 7vmin;
+  position: relative;
+}
+
+#header-e1 {
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  -webkit-transform: translate(0, -50%);
+}
+
+.displayed {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+}
+
+#header-e3 {
+  position: absolute;
+  top: 50%;
+  left: 99%;
+  -webkit-transform: translate(-100%, -50%);
+}
+
+.back {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.logout {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+body {
+  background-color: white;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+fieldset {
+  display: block;
+  .input-container:last-child {
+    border-bottom-width: 0px;
+  }
+}
+
+footer {
+  font-size: 60%;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-100%);
+  text-align: center;
+}
