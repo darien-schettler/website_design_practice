@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: commuters-sans;
-    font-weight: bold;
+    font-weight: 600;
     src: url("../fonts/commuters-sans-light.otf") format("opentype");
 }
 
@@ -13,6 +13,24 @@
     font-family: commuters-sans;
     font-weight: italic;
     src: url("../fonts/commuters-sans-extralight-italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: commuters-sans;
+    font-weight: 700;
+    src: url("../fonts/commuters-sans-semibold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: commuters-sans;
+    font-weight: 800;
+    src: url("../fonts/commuters-sans-bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: commuters-sans;
+    font-weight: 900;
+    src: url("../fonts/commuters-sans-extrabold.otf") format("opentype");
 }
 
 * {
@@ -71,11 +89,51 @@ body {
   height: 100%;
 }
 
-fieldset {
-  display: block;
-  .input-container:last-child {
-    border-bottom-width: 0px;
-  }
+.createProfile{
+  text-align: center;
+
+}
+
+h2 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-weight: 800;
+}
+
+.gridContainer {
+  display: inline-grid;
+  width: 65%;
+  grid-template-columns: auto auto;
+  grid-column-gap: 1.25%;
+  border-top: solid;
+  border-top-color: black;
+  text-align: left;
+}
+
+.grid-item {
+  border-bottom: solid;
+  border-bottom-color: #bebebe;
+  width: 100%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  font-size: 90%;
+}
+
+.descriptor {
+  color: #bebebe;
+  float: left;
+  width: 33.3%;
+  font-weight: 700;
+}
+
+input {
+  width: 66.6%;
+  border: none;
+  font-weight: 600;
+}
+
+input:focus {
+  outline: none;
 }
 
 footer {
