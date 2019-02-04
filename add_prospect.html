@@ -27,7 +27,7 @@
     </div>
 
     <div class = createProfile>
-      <h2> CREATE PROFILE </h2>
+      <h2> CREATE PROSPECT PROFILE </h2>
       <div class = "gridContainer">
 
         <div class="grid-item">
@@ -377,41 +377,29 @@
 
         </div>
 
+        <div class="grid-item">
+          <div class="descriptor">
+          Phone Number
+          </div>
+          <input type="text" id="phoneNumber" title="Phone Number" required/>
+        </div>
+
+        <div class="grid-item">
+          <div class="descriptor">
+          E-mail Address
+          </div>
+          <input type="text" id="emailAddress" title="Email Address" required/>
+        </div>
+
         </div>
       </div>
     </div>
 
-    <div class = paymentInfo>
-      <h2>Payment Info</h2>
-      <div class = "gridContainer">
-
-        <div class="grid-item">
-          <div class="descriptor">
-          Payment Type
-          </div>
-
-          <div class="radioContainer">
-
-            <div class="radio">
-              <input id="radio-1" name="radio" type="radio" checked>
-              <label for="radio-1" class="radio-label">Credit</label>
-            </div>
-
-            <div class="radio">
-              <input id="radio-2" name="radio" type="radio">
-              <label  for="radio-2" class="radio-label">Paypal</label>
-            </div>
-
-          </div>
-
-        </div>
-        <div class="grid-item">
-          <div class="descriptor">
-          Payment Type
-          </div>
-          <input type="text" id="ccNumber" title="Credit Card Number" value="" required/>
-        </div>
-      </div>
+    <div class = "submitClient">
+      <br><br>
+      <hr>
+      <br>
+      <button onclick="addClientClick(this)" type="button" class="btn">ADD PROSPECT</button>
     </div>
 
     <footer>
