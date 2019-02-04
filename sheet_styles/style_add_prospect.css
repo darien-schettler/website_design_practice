@@ -91,7 +91,10 @@ body {
 
 .createProfile{
   text-align: center;
+}
 
+.paymentInfo{
+  text-align: center;
 }
 
 h2 {
@@ -134,6 +137,31 @@ input {
 
 input:focus {
   outline: none;
+}
+
+select{
+  border: none;
+}
+
+select:focus {
+  outline: none;
+}
+
+#radio-1{
+  width: auto;
+  float: left;
+}
+#radio-2{
+  width: auto;
+}
+.radio{
+  float: right;
+  padding-left: 5%;
+  padding-right: 15%;
+}
+
+label{
+  font-weight: 600;
 }
 
 footer {
