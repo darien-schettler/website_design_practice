@@ -20,8 +20,13 @@ function addClient() {
 }
 
 function addClientClick() {
+  window.location.href = "file:///C:/Users/Darie/Desktop/Acorn_Biolabs/Dummy_Website/successful_add.html";
+}
+
+function returnHomeClick() {
   window.location.href = "file:///C:/Users/Darie/Desktop/Acorn_Biolabs/Dummy_Website/home.html";
 }
+
 function addProspect() {
   window.location.href = "file:///C:/Users/Darie/Desktop/Acorn_Biolabs/Dummy_Website/add_prospect.html";
 }

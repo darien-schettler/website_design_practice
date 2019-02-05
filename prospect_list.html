@@ -10,8 +10,7 @@
   </head>
 
   <body>
-    <header>
-
+    <div class=header>
       <div id="header-e1">
         <a class="back" href="javascript:history.back()">BACK</a>
       </div>
@@ -21,12 +20,51 @@
       </div>
 
       <div id="header-e2">
-        <img src="images/black_logo_trans.png"/>
+        <img class = "displayed" src="images/black_logo_trans.png" alt="logo">
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div id = "title">
+        <p>PROSPECT LIST</p>
       </div>
 
-    </header>
+      <div id ="addMore">
+        <button onclick="addProspect(this)" type="button" class="btn">+NEW</button>
+      </div>
+    </div>
 
-    <h2>###</h2>
+      <table name="db_book">
+        <tr>
+        	<th align="left" name="Name" title="VARCHAR(30)">FULL NAME</th>
+        	<th align="left" name="Potential Acorn ID" title="VARCHAR(30)">POTENTIAL ACORN ID</th>
+          <th align="left" name="More Info" title="VARCHAR(3)"></th>
+        </tr>
+
+        <tr>
+        	<td name="Name">John Smith</td>
+        	<td name="Potential Acorn ID">231535 344354 534543 543553</td>
+          <td name="More Info"> <a href=file:///C:/Users/Darie/Desktop/Acorn_Biolabs/Dummy_Website/home.html> >>> </a> </td>
+        </tr>
+
+        <tr>
+        	<td name="Name">Jane Smith</td>
+        	<td name="Potential Acorn ID"> 761577 123432 765987 036845</td>
+          <td name="More Info"> <a href=file:///C:/Users/Darie/Desktop/Acorn_Biolabs/Dummy_Website/home.html> >>> </a> </td>
+        </tr>
+
+        <tr>
+        	<td name="Name">Darien Schettler</td>
+        	<td name="Potential Acorn ID">123456 654321 234567 345678</td>
+          <td name="More Info"> <a href=file:///C:/Users/Darie/Desktop/Acorn_Biolabs/Dummy_Website/home.html> >>> </a> </td>
+        </tr>
+
+        <tr>
+        	<td name="Name">Steven ten Holder</td>
+        	<td name="Potential Acorn ID">098765 567890 135790 975311</td>
+          <td name="More Info"> <a href=file:///C:/Users/Darie/Desktop/Acorn_Biolabs/Dummy_Website/home.html> >>> </a> </td>
+        </tr>
+      </table>
 
     <footer>
         <span>© Copyright Acorn Biolabs. All Rights Reserved.</span>

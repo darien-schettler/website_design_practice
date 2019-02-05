@@ -148,6 +148,10 @@ button:nth-of-type(4){
   padding-right: 5%;
 }
 
+button:focus {
+  outline: none;
+}
+
 footer {
   font-size: 60%;
   position: absolute;
